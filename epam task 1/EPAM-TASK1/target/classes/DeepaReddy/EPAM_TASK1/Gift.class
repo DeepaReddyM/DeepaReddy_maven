@@ -1,0 +1,16 @@
+Êþº¾   1 Y  DeepaReddy/EPAM_TASK1/Gift  java/lang/Object sweets Ljava/util/LinkedList; 	Signature 9Ljava/util/LinkedList<LRamMohanReddy/EPAM_TASK1/Sweets;>; <init> (Ljava/util/LinkedList;)V <(Ljava/util/LinkedList<LRamMohanReddy/EPAM_TASK1/Sweets;>;)V Code
+   	  ()V	     LineNumberTable LocalVariableTable this LRamMohanReddy/EPAM_TASK1/Gift; LocalVariableTypeTable sumofWeights ()Ljava/lang/Integer;
+    java/lang/Integer   valueOf (I)Ljava/lang/Integer;
+   " ! java/util/LinkedList # $ iterator ()Ljava/util/Iterator; & ( ' java/util/Iterator ) * next ()Ljava/lang/Object; , RamMohanReddy/EPAM_TASK1/Sweets
+  . / 0 intValue ()I	 + 2 3 4 weight I & 6 7 8 hasNext ()Z sum Ljava/lang/Integer; s !LRamMohanReddy/EPAM_TASK1/Sweets; sortChocolates (Ljava/lang/String;)V @ name
+ B D C java/lang/String E F 	compareTo (Ljava/lang/String;)I H #RamMohanReddy/EPAM_TASK1/SortByName
+ G 
+ K M L java/util/Collections N O sort )(Ljava/util/List;Ljava/util/Comparator;)V Q cost S %RamMohanReddy/EPAM_TASK1/SortByWeight
+ R  sortKey Ljava/lang/String; 
+SourceFile 	Gift.java !                   	 
+          X     
+*· *+µ ±           	  
+ 	         
+       
+           
+           €     2¸ L*´ ¶ N§ -¹ % À +M+¶ -,´ 1`¸ L-¹ 5 šÿã+°                '  0          2      - 9 :    ; <   = >     “     C+?¶ Aš *´ » GY· I¸ J§ ++P¶ Aš *´ » GY· I¸ J§ *´ » RY· T¸ J±       "     	      #  1  4  B "        C       C U V   W    X
